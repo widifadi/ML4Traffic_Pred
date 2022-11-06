@@ -1,0 +1,32 @@
+Model,Absolute Error,Standard Deviation,Gains,Total Time,"Training Time (1,000 Rows)","Scoring Time (1,000 Rows)"
+Generalized Linear Model,6.763596503,0.091483599,,1616,7.752845833,1.171097318
+Deep Learning,5.223674285,0.036477416,,17396,224.8559517,12.29652184
+Decision Tree,5.532815296,0.109152341,,1451,1.780109617,1.229652184
+Random Forest,6.014631894,0.092690431,,57070,45.41621774,39.23176016
+Gradient Boosted Trees,4.725295736,0.094915048,,65325,103.1760903,38.93898583
+Support Vector Machine,5.444248895,0.144707418,,591058,6767.266667,1134.833333
+,,,,,,
+Linear Regression R^2 Score: 0.10552,,,,,,
+                     Linear Regression RMSE: 8.42503,,,,,,
+                     Linear Regression MAE: 6.65575,,,,,,
+                   K-Nearest Neighbors R^2 Score: 0.33469,,,,,,
+                   K-Nearest Neighbors RMSE: 7.26603,,,,,,
+                   K-Nearest Neighbors MAE: 5.44361,,,,,,
+                        Neural Network R^2 Score: 0.39795,,,,,,
+                        Neural Network RMSE: 6.91200,,,,,,
+                        Neural Network MAE: 5.26231,,,,,,
+Support Vector Machine (Linear Kernel) R^2 Score: 0.10212,,,,,,
+Support Vector Machine (Linear Kernel) RMSE: 8.44103,,,,,,
+Support Vector Machine (Linear Kernel) MAE: 6.64862,,,,,,
+   Support Vector Machine (RBF Kernel) R^2 Score: 0.30791,,,,,,
+   Support Vector Machine (RBF Kernel) RMSE: 7.41086,,,,,,
+   Support Vector Machine (RBF Kernel) MAE: 5.66430,,,,,,
+                         Decision Tree R^2 Score: 0.16814,,,,,,
+                         Decision Tree RMSE: 8.12479,,,,,,
+                         Decision Tree MAE: 6.04860,,,,,,
+                         Random Forest R^2 Score: 0.27674,,,,,,
+                         Random Forest RMSE: 7.57586,,,,,,
+                         Random Forest MAE: 5.68264,,,,,,
+                     Gradient Boosting R^2 Score: 0.38747,,,,,,
+                     Gradient Boosting RMSE: 6.97190,,,,,,
+                     Gradient Boosting MAE: 5.35607,,,,,,
