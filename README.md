@@ -1,4 +1,8 @@
 # Traffic Prediction using Machine Learning
-Traffic Prediction of Floating Car Data (FCD) using machine learning algorithms. The code was used for a master thesis project at International Hellenic University under Erasmus Mundus Joint Master Degree (EMJMD), Smart Cities and Communities (SMACCs) Program.
+Traffic Prediction of Floating Car Data (FCD) using machine learning algorithms. The code was used for a master thesis project at International Hellenic University under Erasmus Mundus Joint Master Degree (EMJMD), Smart Cities and Communities (SMACCs) Program. The idea for this project was to create a traffic speed prediction using machine learning which later can be transformed and used as input for spatial route planning analysis. 
 
-![Result](https://github.com/widifadi/ML4Traffic_Pred/blob/main/Images/thess_road_net2.png)
+The project specifically focused on predicting two main roads in Thessaloniki which may be known to be busy. The prediction horizon varied from predicting one random step, to eight-step, and 24 hours at a random date, where the model was created from one-month data. Also, as it was intended to create an input for route prediction, one month and even multiple months prediction horizon was conducted. It incorporates the approach from the earlier study and compares the result with the study which also used similar data. Moreover additional features were added to the input to see how it affects the prediction result. 
+
+In the end, it is found that the gradient-boosting model outperformed any other models used in this project. While in the case of adding spatial features, the performance of the prediction was not affected nor improved the result. Furthermore, the idea of putting the prediction result into the route planning analysis was hindered by the fact that not all segments have the speed data as depicted in the figure below. 
+
+![Overlap_road_and_speeddata](https://github.com/widifadi/ML4Traffic_Pred/blob/main/Images/thess_road_net2.png)
